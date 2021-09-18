@@ -8,11 +8,15 @@ window.onscroll = function () {
     }
 };
 
-const nayok = { 
-    name: "Salman Shah" ,
-    birthPlace:"sylhet" , 
-    firstSerial: "Pathor Somoy"
-  }
+// const nayok = { 
+//     name: "Salman Shah" ,
+//     birthPlace:"sylhet" , 
+//     firstSerial: "Pathor Somoy"
+//   }
 
-  const{name, firstSerial} = nayok;
-  console.log(nayok);
+//   const{name, firstSerial} = nayok;
+//   console.log(nayok);
+
+let ul = `<li>Bou<li>`; 
+ul +=  `<li>Jamai<li>`; 
+console.log(ul);
