@@ -7,3 +7,12 @@ window.onscroll = function () {
         backToTop.style.display = "block";
     }
 };
+
+const nayok = { 
+    name: "Salman Shah" ,
+    birthPlace:"sylhet" , 
+    firstSerial: "Pathor Somoy"
+  }
+
+  const{name, firstSerial} = nayok;
+  console.log(nayok);
